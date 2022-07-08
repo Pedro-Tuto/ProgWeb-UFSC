@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(194, 194, 228);
+}
+
+article{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+#sect2{
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    text-align: center;
+}
+
+.caixa{
+    background-color: rgb(183, 213, 223);
+    border-color: white;
+    border-style: solid;
+}
+
+h1{ 
+    font: tahoma bolder;
+    font-size: 15vw;
+    color: rgb(255, 0, 181);
+    align-self: center;
+}
+
+b{
+    font: tahoma bolder;
+    color: rgb(255, 0, 181); 
+}
+
+p{
+    align-self: center;
+}
+
+label {
+    display: block;
+}
+
+#principal{
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    font-size: 2vw;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+}
+
+footer{
+    background-color: lightgray;
+}
+
+#nav2{
+    background-color: lightblue;
+    height: fit-content;
+    margin-right: 0;
+    margin-left: 0;
+    height: fit-content;
+    text-align: center;
+}
+

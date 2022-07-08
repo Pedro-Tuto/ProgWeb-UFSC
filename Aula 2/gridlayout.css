@@ -1,0 +1,17 @@
+
+
+div{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: 100px;
+    row-gap: 100px;
+}
+
+@media screen and (max-width:768px) {
+    div{
+        background-color: aqua;
+    }
+}
+
+/* min 1024px - Desktop, 768-1023px - tablet, 767px - smartphone */

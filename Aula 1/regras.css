@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(73, 216, 17);
+}
+
+h1{
+    background-color: darkorange;
+    font-size: 70px;
+    color: rgb(0, 255, 0);
+    border-style: dotted;
+    border-width: 7px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    border: 5px 10px 15px 20px;
+    border-style: double;
+}
+.par-style{
+    background-color: rgb(255, 115, 0);
+    font-size: 50px;
+    color: rgb(0, 255, 0);
+}
+
+#second-par{
+    background-color: mediumaquamarine;
+    font-size: 30px;
+    color: black;
+}
+
+.par-small{
+    background-color: olive;
+    color: rgb(0, 255, 0);
+    font-size: 45px;
+}
+
+img{
+    border-style: dashed;
+    border-width: 40px;
+    color: green;
+    border-radius: 10%;
+}
+
+

@@ -1,0 +1,26 @@
+#pai{
+    width: 80vw;
+    height: 40vh;
+    background-color:  blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.filhos{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-style: solid;
+    display: flex;
+}
+
+.filhos:first-child{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-style: solid;
+    display: flex;
+    order: 3;
+}
